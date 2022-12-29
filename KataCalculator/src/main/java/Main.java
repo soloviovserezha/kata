@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
         CreateScanner createScanner = new CreateScanner();
 
-        String[] actions = {"\\+", "-", "/", "\\*"};
+        String[] actions = {"+", "-", "/", "*"};
         String[] regexActions = {"\\+", "-", "/", "\\*"};
 
         int a, b;
